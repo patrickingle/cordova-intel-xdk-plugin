@@ -4,6 +4,15 @@
         <description>Cordova Echo Plugin</description>
         <license>Apache 2.0</license>
         <keywords>cordova,echo</keywords>
+        <author>Patrick Ingle</author>
+
+	<!-- cordova -->
+	<engines>
+	   <engine name="cordova" version=">=3.6.0" />
+	   <engine name="cordova-plugman" version=">=4.3.0" />
+	   <engine name="cordova-windows" version=">=4.2.0" />
+	</engines>
+        
         <js-module src="www/Echo.js" name="echo">
             <clobbers target="echo" />
         </js-module>

@@ -19,6 +19,24 @@
     "cordova-android",
     "cordova-ios"
   ],
-  "author": "Apache Software Foundation",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.6.0"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=4.3.0"
+    },
+    {
+      "name": "cordova-windows",
+      "version": ">=4.2.0"
+    }
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "author": "Patrick Ingle",
   "license": "Apache 2.0"
 }
