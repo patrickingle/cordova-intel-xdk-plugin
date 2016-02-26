@@ -35,5 +35,9 @@
     }
   ],
   "author": "Patrick Ingle",
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/patrickingle/cordova-intel-xdk-plugin/issues"
+  },
+  "homepage": "http://www.amazon.com/Patrick-Ingle/e/B00IZTF65M/ref=sr_ntt_srch_lnk_4?qid=1456503473&sr=8-4"
 }
