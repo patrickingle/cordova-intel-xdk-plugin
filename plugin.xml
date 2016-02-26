@@ -1,5 +1,5 @@
     <?xml version="1.0" encoding="UTF-8"?>
-    <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-echo" version="0.2.3">
+    <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.phkcorp.cordova.plugin.echo" version="0.2.3">
         <name>Echo</name>
         <description>Cordova Echo Plugin</description>
         <license>Apache 2.0</license>
@@ -34,4 +34,7 @@
 
             <source-file src="src/android/Echo.java" target-dir="src/com/phkcorp/cordova/plugin" />
         </platform>
+	<!-- windows -->
+	<platform name="windows">
+	</platform>
     </plugin>

@@ -1,12 +1,13 @@
 {
-  "name": "cordova-plugin-echo",
+  "name": "com.phkcorp.cordova.plugin.echo",
   "version": "1.0.0",
   "description": "Cordova Echo Plugin",
   "cordova": {
-    "id": "cordova-plugin-echo",
+    "id": "com.phkcorp.cordova.plugin.echo",
     "platforms": [
       "android",
-      "ios"
+      "ios",
+      "windows"
     ]
   },
   "repository": {
@@ -32,10 +33,6 @@
       "name": "cordova-windows",
       "version": ">=4.2.0"
     }
-  ],
-  "platforms": [
-    "ios",
-    "android"
   ],
   "author": "Patrick Ingle",
   "license": "Apache 2.0"
